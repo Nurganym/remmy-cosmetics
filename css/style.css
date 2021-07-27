@@ -34,6 +34,8 @@ color:  #071330;
 font-size: 15px;
 line-height: 18px;
 }
+.nav-btn{
+}
 button{
   height: 40px;
   width: 152px;
@@ -46,4 +48,57 @@ button{
 .container {
   max-width: 1440px;
   margin: 0px auto;
+}
+.skin{
+  padding: 10px 0;
+}
+.skin__row{
+  display: flex;
+  justify-content: space-between;
+}
+.skin__body{
+  padding: 110px 0px 0px 170px;
+}
+.skin__title{
+  width: 460px;
+  height: 100px;
+  font-size: 43px;
+  line-height: 50px;
+  color: #071330;
+}
+.skin__text {
+  font-weight: normal;
+  width: 450px;
+  height: 97px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #071330;
+  margin: 81px 0px;
+}
+.skin__request {
+  height: 80px;
+  background: #ffff;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
+  border-radius: 20px;
+  margin: 24px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skin__request button{
+  height: 56px;
+  width: 172px;
+  padding: 12px 12px 12px 0;
+}
+.request__text {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #071330;
+  padding: 31px 0 31px 32px;
+}
+.skin__image{
+  margin-right: 20%;
 }
